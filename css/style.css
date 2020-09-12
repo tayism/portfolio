@@ -1,0 +1,41 @@
+body {
+  background-color: #FFFAF4;
+  color: #30380F;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 31px;
+  letter-spacing: 0.07em;
+}
+
+._3i0k6___Layout__cls1.mJVDY___Layout__isNotEmbedded {
+    background-color: #FFFAF4;
+}
+
+.blink_text {
+
+    animation:5s blinker linear infinite;
+    -webkit-animation:5s blinker linear infinite;
+    -moz-animation:5s blinker linear infinite;
+
+     color: red;
+    }
+
+    @-moz-keyframes blinker {
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @-webkit-keyframes blinker {
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @keyframes blinker {
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
