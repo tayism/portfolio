@@ -3,23 +3,153 @@
 }
 
 .container {
-  background-color: white;
+  /*background-color: white;*/
   /*height: 100vh;*/
   margin: auto;
-  width: 80%;
+  width: 85%;
+}
+
+html, body { 
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 html {
-  font-size: 10px;
+   font-size: 10px;
+}
+
+a {
+  color: #4F6713;
+  text-decoration: none;
+}
+
+.thick {
+  border-bottom: 5px solid #4F6713;
+}
+
+.navbar {
+  float: right;
+}
+
+.leaflogo {
+  float: left;
+  position: absolute;
+  height: 49px;
+  width: 24px;
+  left: 36px;
+  top: 14px;
+}
+
+/* MOBILE SCREEN START */
+
+/* hamburger menu start */
+
+.nav {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+}
+
+.menu a {
+  clear: right;
+  text-decoration: none;
+  margin: 0 10px;
+  line-height: 70px;
+  background-color: #C9BB98;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+
+#toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 500px){
+  label {
+    display: block;
+    cursor: pointer;
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu a {
+    display: block;
+    margin: 0;
+    
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+  
+  /* hamburger menu end */
+  
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 3.6rem;
 }
 
 h2 {
+  font-size: 2.4rem;
+}
+
+h1, h2 {
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+h3 {
   font-size: 1.8rem;
 }
+
+/* hero unit start */
+
+.hero-unit {
+  letter-spacing: .07em;
+}
+
+.hero-unit span.bold {
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+.hero-unit span.notbold {
+  font-size: 1.8rem;
+}
+
+.hero-unit span.small {
+  font-size: 1rem;
+}
+
+.hi-matcha {
+  margin-bottom: 70px;
+}
+
+p.hi {
+  font-weight: bold;
+  font-family: Happy Monkey;
+  font-size: 4.8rem;
+  letter-spacing: 0.1em;
+  position: absolute;
+}
+
+img.matchapowder {
+  margin-left: -35px;
+  margin-bottom: -25px;
+  position: relative;
+}
+
+/* hero unit end */
 
 body {
   background-color: #FFFAF4;
@@ -34,17 +164,107 @@ body {
 
 section {
   margin-top: 1rem;
-  padding: 10rem 5rem;
+  padding: 10rem 0rem;
 }
 
-._3i0k6___Layout__cls1.mJVDY___Layout__isNotEmbedded {
-    background-color: #FFFAF4;
+/* featured projects start */
+
+.featured-project {
+  font-size: 1.8rem;
+  margin: auto;
+  text-transform: uppercase;
 }
 
-/*@media screen and (min-width: 110em) {
+.projects {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+img.wanderlist-imac {
+  width: 100%;
+  position: relative;
+}
+
+.wanderlistsection {
+  margin-left: 10%;
+  margin-top: -5%;
+  position: absolute;
+  width: 50%;
+}
+
+h2.project {
+  font-size: 3.6rem;
+}
+
+p.wanderlistdescription {
+  font-size: 1.2rem;
+  margin-left: 60px;
+}
+
+a.readcasestudy {
+  color: #9F4C09;
+  font-size: 1.2rem;
+  margin-left: 120px;
+}
+
+/* featured projects end */
+
+img.monsterabg {
+  width: 100%;
+  object-fit: cover;
+}
+
+calendly-inline-widget {
+  background-color: #C9BB98;
+}
+
+/* footer start */
+
+.footer {
+  background-color: #C9BB98;
+  padding: 4rem;
+  width: 100%;
+  margin: 0;
+}
+
+.footer h1 {
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+
+img.footer-icon {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 50px;
+}
+
+.tayismlogo {
+  float: right;
+  height: 61px;
+}
+
+/* footer end */
+
+
+
+/* MOBILE SCREEN END */
+
+
+
+/* TABLET SCREEN START */
+
+@media screen and (min-width: 110em) {
   html {
   font-size: 1.8rem;
 }
+
+/* TABLET SCREEN END */
+
+/* DESKTOP SCREEN START */
 
 @media screen and (min-width: 200em) {
   html {
@@ -52,4 +272,74 @@ section {
   }
 
 }
-*/
+
+/* DESKTOP SCREEN END */
+
+/* down arrow start
+
+.downArrow{
+  position: fixed;
+  bottom: 0%;
+  left: 50%;
+}
+.bounce {
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+
+  down arrow end */
+
+  /* project WANDERLIST start */
+
+  section.wanderlist-header {
+    
+  }
+

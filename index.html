@@ -2,81 +2,112 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Portfolio | Taylor Reyes Sihapanya</title>
       <link rel="stylesheet" href="css/reset.css">
       <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
    </head>
    <body>
-      <div class="container">
+      <section class="container">
       <!-- navigation bar -->
-         <!-- <img src="" alt="tayism design leaf"> -->
-         <nav>
+      <a href="index.html">
+         <img src="images/leaflogo.png" alt="tayism design leaf" class="leaflogo">
+       </a>
+         <div class="navbar">
+           <label for="toggle">&#9776;</label>
+             <input type="checkbox" id="toggle"/>
+           <nav class="menu">
             <a href="index.html">home</a>
             <a href="about.html">about</a>
             <a href="project.html">work</a>
             <a href="/resume.pdf">resume</a>
             <a href="mailto:taylor.reyes@gmail.com">contact</a>
-         </nav>
+         </div>
       <br>
       <!-- hero unit -->
       <section class="hero-unit">
-         <h1>Hi.</h1>
-         <p> I'm <b>Taylor</b>, (aka tayism)
+        <div class="hi-matcha">
+        <p class="hi"> Hi. <img class="matchapowder" src="images/matchapowder.png" alt="matcha powder">
+        </p>
+      </div>
+        <br>
+        <br>
+         <p> I'm <span class="bold">Taylor</span>, <span class="small">(aka tayism)</span>
          </p>
-         <p>I'm a <b>UX Designer</b> from <b>San Francisco</b> &
+         <p>I'm a <span class="bold">UX Designer</span> from <span class="bold">San Francisco</span> &
          </p>
-         <p>a User Advocate fueled by matcha
+         <p>a <span class="notbold">User Advocate</span> <span class="small">fueled by <a href="#" class="thick">matcha</a></span>
          </p>
       </section>
       <br>
-      <section>
+      <section class="featured-projects">
          <!-- featured projects interaction -->
-         <div class="projects-arrow">
-            <h1>Featured Projects</h1>
-         </div>
+           <div class="downArrow bounce">
+  <img width="40" height="40" alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
+</div>
+ <div class="featured-project">Featured Projects
+      </div>
       </section>
       <!-- project display -->
       <section class="projects">
-         <!-- <img src="" alt="wanderlist on a desktop"> -->
-         <div class="wanderlist">
-            <h2>Wanderlist</h2>
-         <p>A cloud-integrated travel app that keeps travelers organized while on the go.</p>
-         <p>Read case study >></p>
+         <section class="wanderlist">
+          <img src="images/iMac.svg" class="wanderlist-imac">
+            <div class="wanderlistsection">
+            <h2 class="project">Wanderlist</h2>
+        <br>
+         <p class="wanderlistdescription">A cloud-integrated travel app that keeps travelers organized while on the go.</p>
          <br>
+         <a href="#" class="readcasestudy">READ CASE STUDY >> </a>
+         <br>
+       </div>
+       </section>
+         <!--
          <p>Coming Soon</p>
          <p>This one is currently in progress.</p>
-         <p>Read case study >> </p>
-      </div>
-      </section>
+         <p>READ CASE STUDY >> </p>
+          -->
+          </section>
+          <br>
+          <img src="images/monsterabg.png" alt="monstera leaves" class="monsterabg">
       <br>
-      <section>
+      <section class="calendly">
          <!-- calendly -->
             <h2>Let's grab some matcha together.</h2>
+            <br>
          <!-- Calendly inline widget begin -->
-         <div class="calendly-inline-widget" data-url="https://calendly.com/tayism/15min?background_color=fffaf4&text_color=30380f&primary_color=487434" style="min-width:320px;height:630px;"></div>
-         <script src="https://assets.calendly.com/assets/external/widget.js"></script>
-         <!-- Calendly inline widget end -->
+          <div class="calendly-inline-widget" data-url="https://calendly.com/taylor-reyes-sihapanya/chat-over-matcha?background_color=FFFAF4&text_color=30380f&primary_color=487434" style="min-width:320px;height:630px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+          <!-- Calendly inline widget end -->
       </section>
       <br>
-      <!-- footer -->
+   </body>
+ </section>
+<!-- footer -->
+ <section class="footer">
        <footer>
-         <h1>See you soon.</h1>
-         <!-- <nav>
+         <h2>See you soon.</h2>
+         <br>
+         <nav>
             <a href="http://www.instagram.com/tayism">
-            <img src="igbutton.gif" alt="instagram button" width="" height="">
+            <img src="images/iconig.png" alt="instagram button" class="footer-icon">
             </a>
             <a href="http://www.twitter.com/tayismdesign">
-            <img src="twitterbutton.gif" alt="twitter button" width="" height="">
+            <img src="images/icontwitter.png" alt="twitter button" class="footer-icon">
             </a>
             <a href="http://www.linkedin.com/in/taylormreyes">
-            <img src="linkedinbutton.gif" alt="linkedin button" width="" height="">
+            <img src="images/iconlinkedin.png" alt="linkedin button" class="footer-icon">
             </a>
             <a href="mailto:taylor.reyes@gmail.com">
-            <img src="mailbutton.gif" alt="email button" width="" height="">
+            <img src="images/iconemail.png" alt="email button" class="footer-icon">
             </a>
-         </nav> -->
-         <p>designed & developed by tayism 2019</p>
-        <!-- <img src="tayismdesignlogo.png" alt="tayism design logo"> -->
+         </nav>
+         <br>
+         <p>designed & developed by tayism 2019
+         <img src="images/tayismlogo.png" alt="tayism logo" class="tayismlogo">
+       </p>
       </footer>
-   </body>
+         </section>
+
 </html>
