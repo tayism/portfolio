@@ -1,0 +1,254 @@
+/* project WANDERLIST start */
+
+section {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+p {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+img {
+	width: 100%;
+}
+
+ .wanderlist-header {
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+ }
+
+ .wanderlist-header img {
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-bottom: 5rem;
+ 	padding-top: 5rem;
+ }
+
+ li {
+ 	list-style-type: circle;
+ 	padding: 1rem;
+ 	margin-left: 2rem;
+ }
+
+ .wanderlist-work {
+ 	padding: 1rem;
+ 	margin: 2rem;
+ 	text-align: center;
+ }
+
+ h2, h3 {
+ 	letter-spacing: 0.1em;
+ 	margin-bottom: 2rem;
+ 	margin-top: 2rem;
+ }
+
+ .role, .deliverables, .tools {
+ 	margin: 0px 0px 8rem 0px;
+ }
+
+ .divider {
+ 	width: 100%;
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+
+ /* RESEARCH AND DISCOVERY */
+
+ .research-and-discovery h2 {
+ 	margin-bottom: 5rem;
+ 	text-align: center;
+ }
+
+.research-and-discovery p {
+	margin-bottom: 5rem;
+}
+
+.pinterest {
+	display: block;
+	height: 45px;
+	width: 45px;
+	margin-bottom: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.onenote {
+	display: block;
+	height: 75px;
+	width: 75px;
+	margin-bottom: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pearltrees {
+	display: block;
+	height: 27.5px;
+	width: 94px;
+	margin-bottom: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* user research highlights */
+
+.italic {
+	font-style: italic;
+}
+
+.key-insight img {
+	margin-left: -1%;
+	margin-top: -5%;
+	position: absolute;
+	width: 90%;
+}
+
+/* KEY INSIGHT */
+
+.key-insight p {
+	font-weight: bold;
+	margin: 2rem 2rem;
+	position: relative;
+}
+
+/* user data */
+
+.user-data {
+	text-align: center;
+}
+
+.numbers {
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+
+/* GREEN POP OUT */
+
+.green-pop-out {
+	background-color: #C1CB72;
+	width: 100%;
+}
+
+.green-pop-out h3 {
+	padding: 3rem;
+}
+
+.green-pop-out p {
+	padding: 3rem;
+}
+
+.green-pop-out h3 {
+	font-weight: bold;
+}
+
+.green-pop-out img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5rem;
+	padding-top: 5rem;
+}
+
+/* User Personas */
+
+.user-personas h2 {
+	text-align: center;
+}
+
+.user-personas img {
+	display: block;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70px;
+}
+
+.user-personas p {
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+/* User Stories */
+
+.user-stories h2 {
+	text-align: center;
+}
+
+.user-stories img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.userstoriesgif {
+	width: 100%;
+}
+
+.userstoriesbutton {
+	width: unset;
+}
+
+/* GREEN POP OUT V2 */
+
+.green-pop-out-2 {
+	text-align: center;
+	background-color: #C1CB72;
+	padding: 3rem;
+}
+
+.green-pop-out-2 h3 {
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+
+/* Content Strategy */
+
+.digitize img {
+	padding-bottom: 2rem;
+	padding-top: 1rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 485px;
+	width: 235px;
+}
+
+/* BRANDING */
+
+/*
+.visual-design p {
+	margin-bottom: ;
+}*/
+
+
+.branding h3 {
+	margin-bottom: 10rem;
+	margin-top: 10rem;
+	text-align: center;
+}
+
+.testing-and-prototyping img {
+	width: 100%;
+}
+
+img.wanderlist-footer {
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-bottom: 5rem;
+ 	padding-top: 5rem;
+}
+
+img.tayismlogo {
+	width: unset;
+}

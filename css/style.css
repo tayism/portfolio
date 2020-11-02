@@ -28,17 +28,30 @@ a {
   border-bottom: 5px solid #4F6713;
 }
 
+/*
+ .navigation {
+  display: inline-block;
+}
+
+*/
+
 .navbar {
   float: right;
+  right: -40px;
+  top: -30px;
+  position: relative;
 }
 
 .leaflogo {
   float: left;
   position: absolute;
-  height: 49px;
-  width: 24px;
   left: 36px;
   top: 14px;
+}
+
+.leafsize {
+   height: 49px;
+   width: 24px;
 }
 
 /* MOBILE SCREEN START */
@@ -56,7 +69,7 @@ a {
   text-decoration: none;
   margin: 0 10px;
   line-height: 70px;
-  background-color: #C9BB98;
+  background-color: #FFFAF4;
 }
 
 label {
@@ -77,14 +90,26 @@ label {
     display: block;
     cursor: pointer;
   }
+  
   .menu {
     text-align: center;
     width: 100%;
     display: none;
   }
+
   .menu a {
     display: block;
     margin: 0;
+    background-color: #C9BB98;
+    /*
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #C9BB98;
+    */
+    position: inherit;
+    width: 50rem;
+    text-align: right;
+    padding-right: 5rem;
     
   }
   #toggle:checked + .menu {
@@ -239,7 +264,7 @@ img.footer-icon {
   display: inline-block;
   height: 20px;
   width: 20px;
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .tayismlogo {
@@ -248,6 +273,7 @@ img.footer-icon {
 }
 
 /* footer end */
+
 
 
 
@@ -336,10 +362,4 @@ img.footer-icon {
   }
 
   down arrow end */
-
-  /* project WANDERLIST start */
-
-  section.wanderlist-header {
-    
-  }
 
