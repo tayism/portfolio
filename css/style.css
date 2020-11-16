@@ -5,6 +5,7 @@
 .container {
   /*background-color: white;*/
   /*height: 100vh;*/
+  margin-top: 130px;
   margin: auto;
   width: 85%;
 }
@@ -28,31 +29,43 @@ a {
   border-bottom: 5px solid #4F6713;
 }
 
-/*
- .navigation {
-  display: inline-block;
-}
+/* navigation bar */
 
-*/
-
-.navbar {
-  float: right;
-  right: -40px;
-  top: -30px;
-  position: relative;
+ .navigation-bar {
+  z-index: 9999;
+  display: contents;
+  position: fixed;
+  top: 0;
 }
 
 .leaflogo {
   float: left;
-  position: absolute;
+  position: fixed;
   left: 36px;
   top: 14px;
+  z-index: 9999;
 }
 
 .leafsize {
    height: 49px;
    width: 24px;
 }
+
+nav.menu {
+  position: fixed;
+  top: 0;
+  padding: 1rem 0 1rem 0;
+  right: 50px;
+  z-index: 9998;
+  background-color: #FFFAF4;
+  text-align: right;
+  width: 100%;
+}
+
+ nav.menu a {
+  padding: 2rem;
+}
+
 
 /* MOBILE SCREEN START */
 
@@ -64,21 +77,16 @@ a {
   line-height: 70px;
 }
 
-.menu a {
-  clear: right;
-  text-decoration: none;
-  margin: 0 10px;
-  line-height: 70px;
-  background-color: #FFFAF4;
-}
 
 label {
-  margin: 0 40px 0 0;
   font-size: 26px;
   line-height: 70px;
   display: none;
   width: 26px;
   float: right;
+  right: 36px;
+  position: fixed;
+  z-index: 9999;
 }
 
 #toggle {
@@ -99,22 +107,17 @@ label {
 
   .menu a {
     display: block;
-    margin: 0;
     background-color: #C9BB98;
-    /*
-    border-bottom-style: solid;
-    border-width: 1px;
-    border-color: #C9BB98;
-    */
-    position: inherit;
-    width: 50rem;
-    text-align: right;
-    padding-right: 5rem;
+    position: relative;
+    top: 7rem;
+    width: 55rem;
+    z-index: 100;
     
   }
   #toggle:checked + .menu {
     display: block;
   }
+
   
   /* hamburger menu end */
   
@@ -198,14 +201,17 @@ section {
   font-size: 1.8rem;
   margin: auto;
   text-transform: uppercase;
+  position: absolute;
+  bottom: 10%;
+  left: 42.5%;
 }
 
 .projects {
   font-family: 'Didact Gothic', sans-serif;
 }
 
-img.wanderlist-imac {
-  width: 100%;
+.wanderlist img {
+    width: 100%;
   position: relative;
 }
 
@@ -305,6 +311,67 @@ img.footer-icon {
 /* about me page end */
 
 
+/* DOWN ARROW INTERACTION */
+
+.downArrow{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+.bounce {
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+
+  /* END DOWN ARROW INTERACTION */
 
 
 /* MOBILE SCREEN END */
