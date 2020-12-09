@@ -266,7 +266,9 @@ img.footer-icon {
 }
 
 .my-photos {
-  margin: 10rem 0 10rem 0;
+  position: relative;
+  bottom: 30rem;
+  z-index: 1;
 }
 
 .tayfamily1 {
@@ -281,6 +283,10 @@ img.footer-icon {
   width: 280px;
 }
 
+.monsterabg {
+  z-index: 9999;
+}
+
 .my-photos img {
   padding: 2rem 0 2rem 0;
   display: block;
@@ -293,6 +299,8 @@ img.footer-icon {
   font-style: italic;
   font-size: 1rem;
 }
+
+
 
 /* about me page end */
 
@@ -310,7 +318,7 @@ img.footer-icon {
  shrink nav menu end */
 
 
-/* TABLET SCREEN MEDIA QUERY START
+/* TABLET SCREEN MEDIA QUERY START */
 
 @media only screen and (min-width: 768px) {
 
@@ -319,7 +327,6 @@ img.footer-icon {
   }
 
 .container {
-  background-color: red;
   margin: 0 auto;
   overflow: hidden;
   width: 80%;
@@ -333,9 +340,29 @@ p.hi {
   position: unset;
 }
 
+.my-photos {
+  display: grid;
+  column-gap: 60px;
+  grid-template-columns: 300px 300px;
+  justify-content: center;
 }
 
-TABLET SCREEN MEDIA QUERY END */
+.my-photos img {
+  height: auto;
+  width: 300px;
+}
+
+img.tayfamily2 {
+  grid-column-start: 1;
+}
+
+.my-photos p {
+  grid-column-start: 2;
+}
+
+}
+
+/* TABLET SCREEN MEDIA QUERY END */
 
 
 /* DESKTOP SCREEN MEDIA QUERY START */
@@ -348,7 +375,7 @@ TABLET SCREEN MEDIA QUERY END */
 
 .container {
   overflow: hidden;
-  width: 75%;
+  width: 85%;
 }
 
 nav.menu a {
@@ -396,6 +423,29 @@ p.useradvocate {
 p.readcasestudy {
   position: relative;
   top: 4rem;
+}
+
+.about-me {
+  position: relative;
+  width: 65%;
+  z-index: 100;
+}
+
+img.monsterabgabout {
+  position: absolute;
+  right: 1%;
+  top: 5%;
+  height: auto;
+  width: 50%;
+  z-index: 1;
+}
+
+.my-photos {
+  display: block;
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  z-index: 2;
 }
 
   }
