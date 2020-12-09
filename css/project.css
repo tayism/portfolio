@@ -256,3 +256,231 @@ img.wanderlist-footer {
 img.tayismlogo {
 	width: unset;
 }
+
+
+/* ////////// MEDIA QUERIES ///////// */
+
+/* TABLET SCREEN */
+
+@media screen and (min-width: 760px) {
+
+.wanderlist-header img {
+    height: auto;
+    width: 200px;
+}
+
+.pricingplans {
+    display: block;
+    height: 300px;
+    margin: 5rem auto 5rem auto;
+    width: auto;
+}
+
+.thesolution p {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.thesolution img {
+    grid-column: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.key-insight p {
+    left: 1rem;
+    top: 1rem;
+}
+
+.user-personas, .user-persona-columns {
+    padding-bottom: 0;
+}
+
+.user-stories {
+    padding-top: 0;
+}
+
+img.wanderlist-footer {
+    height: auto;
+    width: 200px;
+}
+
+.digitize {
+    padding-bottom: 0;
+}
+
+.digitize-wireframes img {
+	width: 100%;
+	height: auto;
+}
+
+.branding p {
+    padding-bottom: 4rem;
+}
+
+.computer-hands {
+    padding: 5rem 0 5rem 0;
+}
+
+/* /// refactoring all 3-column areas /// */
+
+.wanderlist-work, .competitive-analysis-logos, .user-data-columns, 
+.digitize-wireframes, .hifi-mockup-green, 
+.vis-design-images, .logo-design-columns, .iconography-columns {
+    display: grid;
+    column-gap: 60px;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+}
+
+.competitive-analysis-logos img {
+    grid-row-start: 1;
+    place-self: center;
+}
+
+.competitive-analysis-logos {
+    padding: 1rem 0 1rem 0;
+}
+
+h3.user-data {
+    text-align: center;
+}
+
+p.numbers {
+    grid-row-start: 2;
+}
+
+p.userdata-bottom {
+    grid-row-start: 3;
+}
+
+.key-insight {
+    padding: 5rem 0 5rem 0;
+}
+
+p.a1 {
+    grid-column-start: 3;
+}
+
+
+/* /// refactoring all 2-column areas /// */
+
+.likes-dislikes, .user-persona-columns, .user-stories-columns, .digital-flows-columns, .wireframe-sketches, .pref-testing-1 {
+    display: grid;
+    column-gap: 60px;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+}
+
+.likes-dislikes li {
+    padding-bottom: 2rem;
+}
+
+.darius {
+    grid-column-start: 1;
+}
+
+.monica {
+    grid-column-start: 2;
+}
+
+.wireframe-sketches img {
+    height: auto;
+    width: 300px;
+}
+
+.wf-sketch2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.pref-testing-1 {
+    grid-template-columns: 200px 200px;
+}
+
+/* /// refactoring all 4-column areas /// */
+
+
+
+.imgLink { 
+    border: none; 
+    background: none; 
+}
+.imgLink img {
+    height: 150px;
+}
+.imgLink:active img, .imgLink:focus img {
+    height: 375px;
+}
+
+
+.key-insight img {
+    height: 20%;
+    margin-left: unset;
+    margin-top: unset;
+    width: 85%;
+}
+
+.user-data-columns {
+    grid-template-rows: 75px 75px 75px;
+}
+
+.user-flows-columns {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 150px 150px 150px 150px;
+    padding: 5rem 0 5rem 0;
+    justify-content: center;
+}
+
+.digitize-wireframes {
+    column-gap: 40px;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.iconography-columns {
+    align-items: center;
+    column-gap: 30px;
+    grid-template-columns: 150px 150px 250px;
+}
+
+}
+
+/* //// DESKTOP SCREEN /// */
+
+@media screen and (min-width: 1020px) {
+
+
+.thesolution {
+	display: grid;
+	grid-template-columns: 500px 300px;
+}
+
+.key-insight img {
+	height: 20%;
+	margin-left: unset;
+	margin-top: unset;
+	width: 75%;
+}
+
+.digitize-wireframes {
+	padding-bottom: 1rem;
+}
+
+.user-data-columns {
+	grid-template-rows: 100px 100px 100px;
+}
+
+.iconography-columns {
+	align-items: center;
+	column-gap: 40px;
+	grid-template-columns: 200px 200px 300px;
+}
+
+.user-flows-columns {
+	display: grid;
+	column-gap: 10px;
+	grid-template-columns: 200px 200px 200px 200px;
+	padding: 5rem 0 5rem 0;
+	justify-content: center;
+}

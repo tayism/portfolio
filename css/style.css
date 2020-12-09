@@ -8,8 +8,6 @@ html {
 
 
 .container {
-  /*background-color: white;*/
-  /*height: 100vh;*/
   margin-top: 130px;
   margin: auto;
   width: 85%;
@@ -106,10 +104,6 @@ h3 {
 
 .hero-unit span.small {
   font-size: 1rem;
-}
-
-.hi-matcha {
-  margin-bottom: 70px;
 }
 
 p.hi {
@@ -316,7 +310,7 @@ img.footer-icon {
  shrink nav menu end */
 
 
-/* TABLET SCREEN MEDIA QUERY START */
+/* TABLET SCREEN MEDIA QUERY START
 
 @media only screen and (min-width: 768px) {
 
@@ -341,7 +335,7 @@ p.hi {
 
 }
 
-/* TABLET SCREEN MEDIA QUERY END */
+TABLET SCREEN MEDIA QUERY END */
 
 
 /* DESKTOP SCREEN MEDIA QUERY START */
@@ -349,40 +343,59 @@ p.hi {
 @media screen and (min-width: 1024px) {
 
   html {
-  font-size: 125%;
+  font-size: 80%;
   }
 
 .container {
-  background-color: yellow;
   overflow: hidden;
   width: 75%;
-}
-
-.section {
-  float: left;
-  margin: 1%;
-  width: 48%;
-}
-
-.hero-unit {
-  line-height: initial;
-  padding-top: unset;
-}
-
-p.hi {
-  position: unset;
-}
-
-.featured-project {
-  font-size: 1rem;
 }
 
 nav.menu a {
   font-size: 65%;
 }
 
-section {
-  padding: 5rem 0rem;
+.section {
+  float: left;
+  margin: 1%;
+  width: 23%;
+}
+
+.hero-unit {
+  line-height: initial;
+  padding: 5rem 7rem;
+}
+
+p.hi {
+  position: unset;
+}
+
+p.useradvocate {
+  text-align: right;
+}
+
+.featured-project {
+  font-size: 1rem;
+}
+
+.wanderlist img {
+  width: 75%;
+}
+
+.wanderlistsection {
+  margin-left: 65%;
+  margin-top: -35%;
+  width: 30%;
+}
+
+.wanderlistdescription {
+  float: right;
+  width: 70%;
+}
+
+p.readcasestudy {
+  position: relative;
+  top: 4rem;
 }
 
   }
