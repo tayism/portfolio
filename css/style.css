@@ -170,7 +170,7 @@ section.projects {
 .wanderlistsection {
   margin-left: 10%;
   margin-top: -5%;
-  position: absolute;
+  position: relative;
   width: 70%;
 }
 
@@ -358,7 +358,7 @@ p.hi {
 
 .my-photos {
   display: grid;
-  column-gap: 60px;
+  column-gap: 10px;
   grid-template-columns: 300px 300px;
   justify-content: center;
 }
@@ -369,7 +369,7 @@ p.hi {
 }
 
 img.tayfamily2 {
-  grid-column-start: 1;
+  grid-column-start: 2;
 }
 
 .my-photos p {
@@ -421,6 +421,10 @@ p.useradvocate {
   font-size: 1.6rem;
 }
 
+section .featured-projects {
+  padding-top: 40rem;
+}
+
 .wgo img {
   width: 75%;
   float:  right;
@@ -428,10 +432,11 @@ p.useradvocate {
 
 .wgosection {
   margin-left: 10%;
-  margin-top: auto;
   position: absolute;
   width: 40%;
-
+}
+.wgosection p {
+  background-color: #FFFAF4;
 }
 
 .wgodescription {
@@ -482,7 +487,7 @@ img.monsterabgabout {
 .my-photos {
   display: block;
   position: absolute;
-  right: 5%;
+  right: 10%;
   top: 20%;
   z-index: 2;
 }
