@@ -95,21 +95,21 @@ h3 {
 
 .hero-unit span.bold {
   font-weight: bold;
-  font-size: 2.4rem;
+  font-size: 3.6rem;
 }
 
 .hero-unit span.notbold {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .hero-unit span.small {
-  font-size: 1rem;
+  font-size: 1.8rem;
 }
 
 p.hi {
   font-weight: bold;
   font-family: Happy Monkey;
-  font-size: 4.8rem;
+  font-size: 5rem;
   letter-spacing: 0.1em;
   position: absolute;
 }
@@ -141,7 +141,7 @@ section {
 /* featured projects start */
 
 .featured-project {
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin: auto;
   text-transform: uppercase;
   position: relative;
@@ -159,6 +159,7 @@ section {
 
 section.projects {
   padding-top: 0;
+  line-height: normal;
 }
 
 .wanderlist img {
@@ -170,16 +171,31 @@ section.projects {
   margin-left: 10%;
   margin-top: -5%;
   position: absolute;
-  width: 50%;
+  width: 70%;
+}
+
+.wgo img {
+    width: 100%;
+  position: relative;
+  padding-bottom: 4rem;
+}
+
+.wgosection {
+  margin-left: 10%;
+  margin-top: -10%;
+  position: relative;
+  width: 70%;
 }
 
 h2.project {
   font-size: 3.6rem;
 }
 
-p.wanderlistdescription {
-  font-size: 1.2rem;
+p.projectdescription {
+  font-size: 1.8rem;
   margin-left: 60px;
+  background-color: #FFFAF4;
+  padding: 1rem;
 }
 
 .readcasestudy {
@@ -379,7 +395,7 @@ img.tayfamily2 {
 }
 
 nav.menu a {
-  font-size: 65%;
+  font-size: 75%;
 }
 
 .section {
@@ -398,11 +414,29 @@ p.hi {
 }
 
 p.useradvocate {
-  text-align: right;
+  text-align: center;
 }
 
 .featured-project {
-  font-size: 1rem;
+  font-size: 1.6rem;
+}
+
+.wgo img {
+  width: 75%;
+  float:  right;
+}
+
+.wgosection {
+  margin-left: 10%;
+  margin-top: auto;
+  position: absolute;
+  width: 40%;
+
+}
+
+.wgodescription {
+  float: left;
+  width: 70%;
 }
 
 .wanderlist img {
@@ -422,6 +456,11 @@ p.useradvocate {
 
 p.readcasestudy {
   position: relative;
+  top: 4rem;
+}
+
+p.readcasestudy-wgo {
+  position: initial;
   top: 4rem;
 }
 
