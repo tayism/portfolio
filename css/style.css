@@ -392,6 +392,7 @@ img.tayfamily2 {
 .container {
   overflow: hidden;
   width: 85%;
+  padding: 20rem 0 20rem 0;
 }
 
 nav.menu a {
