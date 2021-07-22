@@ -1,5 +1,10 @@
 /* project WHAT'S GROWIN' ON start */
 
+.container {
+	width: 70%;
+}
+
+
 p {
 	margin-top: .5rem;
 	margin-bottom: .5rem;
@@ -12,13 +17,13 @@ img {
 }
 
 
- .wanderlist-header {
+ .wgo-header {
   margin: 1rem;
   text-align: center;
   padding: 1rem;
  }
 
- .wanderlist-header img {
+ .wgo-header img {
  	display: block;
  	margin-left: auto;
  	margin-right: auto;
@@ -27,8 +32,12 @@ img {
  	width: 50%;
  }
 
- .wanderlist-intro {
+ .wgo-intro {
  	padding-bottom: 0;
+ }
+
+ img.igmockup {
+ 	width: 50%;
  }
 
  li {
@@ -38,7 +47,7 @@ img {
  	line-height: 40px;
  }
 
- .wanderlist-work {
+ .wgo-work {
  	padding: 1rem;
  	margin: 2rem;
  	text-align: center;
@@ -278,7 +287,7 @@ img.surveydata {
 	width: 100%;
 }
 
-img.wanderlist-footer {
+img.wgo-footer {
 	display: block;
  	margin-left: auto;
  	margin-right: auto;
@@ -297,7 +306,7 @@ img.tayismlogo {
 
 @media screen and (min-width: 760px) {
 
-.wanderlist-header img {
+.wgo-header img {
     height: auto;
     width: 200px;
 }
@@ -334,7 +343,7 @@ img.tayismlogo {
     padding-top: 0;
 }
 
-img.wanderlist-footer {
+img.wgo-footer {
     height: auto;
     width: 200px;
 }
@@ -358,7 +367,7 @@ img.wanderlist-footer {
 
 /* /// refactoring all 3-column areas /// */
 
-.wanderlist-work, .competitive-analysis-logos, .user-data-columns, 
+.wgo-work, .competitive-analysis-logos, .user-data-columns, 
 .digitize-wireframes, .hifi-mockup-green, 
 .vis-design-images, .logo-design-columns, .iconography-columns {
     display: grid;
@@ -485,10 +494,38 @@ p.a1 {
 @media screen and (min-width: 1020px) {
 
 
-/*.thesolution {
+.theproblem, .thesolution {
 	display: grid;
-	grid-template-columns: 500px 300px;
-}*/
+	grid-template-columns: 600px 600px;
+	grid-column-gap: 70px;
+}
+
+.theproblem p {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.theproblem img {
+    grid-column: 2;
+    grid-row-start: 2;
+    width: 70%;
+}
+
+.thesolution img {
+	grid-row:: 1;
+	grid-column: 1;
+	width: 85%;
+}
+
+.thesolution p {
+	grid-row:: 1;
+	grid-column: 2;
+}
+
+.thesolution h2 {
+	grid-row: 1;
+	grid-column: 2;
+}
 
 .key-insight img {
 	height: 30%;
