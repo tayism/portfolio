@@ -1,0 +1,520 @@
+/* project WHAT'S GROWIN' ON start */
+
+p {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	line-height: 40px;
+}
+
+img {
+	width: 100%;
+	margin: 2rem 0 2rem 0;
+}
+
+
+ .wanderlist-header {
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+ }
+
+ .wanderlist-header img {
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-bottom: 5rem;
+ 	padding-top: 5rem;
+ 	width: 50%;
+ }
+
+ .wanderlist-intro {
+ 	padding-bottom: 0;
+ }
+
+ li {
+ 	list-style-type: circle;
+ 	padding: 1rem;
+ 	margin-left: 2rem;
+ 	line-height: 40px;
+ }
+
+ .wanderlist-work {
+ 	padding: 1rem;
+ 	margin: 2rem;
+ 	text-align: center;
+ }
+
+ h2, h3 {
+ 	letter-spacing: 0.1em;
+ 	margin-bottom: 2rem;
+ 	margin-top: 2rem;
+ }
+
+ .role, .deliverables, .tools {
+ 	margin: 0px 0px 8rem 0px;
+ }
+
+ .divider {
+ 	width: 100%;
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+
+ /* RESEARCH AND DISCOVERY */
+
+ .research-and-discovery h2 {
+ 	margin-bottom: 5rem;
+ 	text-align: center;
+ }
+
+.research-and-discovery p {
+	margin-bottom: 5rem;
+}
+
+img.surveydata {
+	width: 70%;
+	box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+}
+
+/*.pinterest {
+	display: block;
+	height: 45px;
+	width: 45px;
+	margin-bottom: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.onenote {
+	display: block;
+	height: 75px;
+	width: 75px;
+	margin-bottom: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pearltrees {
+	display: block;
+	height: 27.5px;
+	width: 94px;
+	margin-bottom: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+.wgo-competitiveanalysis img {
+	width: 50%;
+	margin:  auto;
+	display: block;
+	padding-bottom: 5rem;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* user research highlights */
+
+.italic {
+	font-style: italic;
+}
+
+.key-insight img {
+	margin-top: -5%;
+	position: absolute;
+	width: 90%;
+	height: 75%;
+}
+
+.blocks {
+	padding-top: 5rem;
+}
+
+
+/* KEY INSIGHT */
+
+.key-insight p {
+	font-weight: bold;
+	margin: 2rem 2rem;
+	position: relative;
+}
+
+/* user data */
+
+.user-data {
+	text-align: center;
+}
+
+.numbers {
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+
+.userdata-bottom {
+	padding-bottom: 3rem;
+}
+
+.wgo-survey-result {
+	margin-top: 40rem;
+}
+
+/* GREEN POP OUT */
+
+.green-pop-out {
+	background-color: #C1CB72;
+	width: 100%;
+}
+
+.green-pop-out h3 {
+	padding: 3rem;
+}
+
+.green-pop-out p {
+	padding: 3rem;
+}
+
+.green-pop-out h3 {
+	font-weight: bold;
+}
+
+.green-pop-out img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5rem;
+	padding-top: 5rem;
+}
+
+/* User Personas */
+
+.wgo-personas img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.wgo-personas p {
+	margin: 3rem 0 3rem 0;
+}
+
+/* User Stories */
+
+.user-stories h2 {
+	text-align: center;
+}
+
+.user-stories img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.userstoriesgif {
+	width: 100%;
+}
+
+.userstoriesbutton {
+	width: unset;
+}
+
+/* GREEN POP OUT V2 */
+
+.green-pop-out-2 {
+	text-align: center;
+	background-color: #C1CB72;
+	padding: 3rem;
+}
+
+.green-pop-out-2 h3 {
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+
+.userflows img {
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+}
+
+/* Content Strategy */
+
+.content-strategy img {
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+}
+
+.digitize img {
+	padding-bottom: 2rem;
+	padding-top: 1rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 485px;
+	width: 235px;
+}
+
+/* BRANDING */
+
+/*
+.visual-design p {
+	margin-bottom: ;
+}*/
+
+
+.branding h3 {
+	margin-bottom: 10rem;
+	margin-top: 10rem;
+	text-align: center;
+}
+
+.testing-and-prototyping img {
+	width: 100%;
+}
+
+img.wanderlist-footer {
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-bottom: 5rem;
+ 	padding-top: 5rem;
+}
+
+img.tayismlogo {
+	width: unset;
+}
+
+
+/* ////////// MEDIA QUERIES ///////// */
+
+/* TABLET SCREEN */
+
+@media screen and (min-width: 760px) {
+
+.wanderlist-header img {
+    height: auto;
+    width: 200px;
+}
+
+.pricingplans {
+    display: block;
+    height: 300px;
+    margin: 5rem auto 5rem auto;
+    width: auto;
+}
+
+.thesolution p {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.thesolution img {
+    grid-column: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.key-insight p {
+    left: 1rem;
+    top: 1rem;
+    width: 80%;
+}
+
+.user-personas, .user-persona-columns {
+    padding-bottom: 0;
+}
+
+.user-stories {
+    padding-top: 0;
+}
+
+img.wanderlist-footer {
+    height: auto;
+    width: 200px;
+}
+
+.digitize {
+    padding-bottom: 0;
+}
+
+.digitize-wireframes img {
+	width: 100%;
+	height: auto;
+}
+
+.branding p {
+    padding-bottom: 4rem;
+}
+
+.computer-hands {
+    padding: 5rem 0 5rem 0;
+}
+
+/* /// refactoring all 3-column areas /// */
+
+.wanderlist-work, .competitive-analysis-logos, .user-data-columns, 
+.digitize-wireframes, .hifi-mockup-green, 
+.vis-design-images, .logo-design-columns, .iconography-columns {
+    display: grid;
+    column-gap: 60px;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+}
+
+.competitive-analysis-logos img {
+    grid-row-start: 1;
+    place-self: center;
+}
+
+.competitive-analysis-logos {
+    padding: 1rem 0 1rem 0;
+}
+
+h3.user-data {
+    text-align: center;
+}
+
+p.numbers {
+    grid-row-start: 2;
+}
+
+p.userdata-bottom {
+    grid-row-start: 3;
+}
+
+.key-insight {
+    padding: 5rem 0 5rem 0;
+}
+
+p.a1 {
+    grid-column-start: 3;
+}
+
+
+/* /// refactoring all 2-column areas /// */
+
+.likes-dislikes, .user-persona-columns, .user-stories-columns, .digital-flows-columns, .wireframe-sketches, .pref-testing-1 {
+    display: grid;
+    column-gap: 60px;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+}
+
+.likes-dislikes li {
+    padding-bottom: 2rem;
+}
+
+.darius {
+    grid-column-start: 1;
+}
+
+.monica {
+    grid-column-start: 2;
+}
+
+.wireframe-sketches img {
+    height: auto;
+    width: 300px;
+}
+
+.wf-sketch2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.pref-testing-1 {
+    grid-template-columns: 200px 200px;
+}
+
+/* /// refactoring all 4-column areas /// */
+
+
+
+.imgLink { 
+    border: none; 
+    background: none; 
+}
+.imgLink img {
+    height: 150px;
+}
+.imgLink:active img, .imgLink:focus img {
+    height: 375px;
+}
+
+
+.key-insight img {
+    height: 20%;
+    margin-left: unset;
+    margin-top: unset;
+    width: 85%;
+}
+
+.user-data-columns {
+    grid-template-rows: 75px 75px 75px;
+}
+
+.user-flows-columns {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 150px 150px 150px 150px;
+    padding: 5rem 0 5rem 0;
+    justify-content: center;
+}
+
+.digitize-wireframes {
+    column-gap: 40px;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.iconography-columns {
+    align-items: center;
+    column-gap: 30px;
+    grid-template-columns: 150px 150px 250px;
+}
+
+}
+
+/* //// DESKTOP SCREEN /// */
+
+@media screen and (min-width: 1020px) {
+
+
+/*.thesolution {
+	display: grid;
+	grid-template-columns: 500px 300px;
+}*/
+
+.key-insight img {
+	height: 30%;
+	margin-left: unset;
+	margin-top: unset;
+	width: 75%;
+}
+
+.digitize-wireframes {
+	padding-bottom: 1rem;
+}
+
+.user-data-columns {
+	grid-template-rows: 100px 100px 100px;
+}
+
+.iconography-columns {
+	align-items: center;
+	column-gap: 40px;
+	grid-template-columns: 200px 200px 300px;
+}
+
+.user-flows-columns {
+	display: grid;
+	column-gap: 10px;
+	grid-template-columns: 200px 200px 200px 200px;
+	padding: 5rem 0 5rem 0;
+	justify-content: center;
+}
